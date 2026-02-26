@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+
+    <style>
+/* ===== GLOBAL ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #444 !important;
+}
+
+/* ===== NAVBAR ===== */
+.w3-bar {
+  background: linear-gradient(90deg, #000, #222);
+  color: #f4b400;
+}
+
+.w3-bar .w3-button {
+  color: #000 !important;
+  transition: 0.3s;
+}
+
+.w3-bar .w3-button:hover {
+  background: #f4b400 !important;
+  color: #000 !important;
+}
+
+/* ===== HEADER ===== */
+header img {
+  filter: brightness(60%);
+}
+
+.w3-display-middle h1 {
+  background: rgba(0,0,0,0.6);
+  padding: 20px 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+/* ===== PROJECT CARDS ===== */
+.w3-display-container {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.w3-display-container img {
+  transition: transform 0.5s ease;
+}
+
+.w3-display-container:hover img {
+  transform: scale(1.1);
+}
+
+.w3-display-topleft {
+  background: rgba(0,0,0,0.7) !important;
+  border-radius: 0 0 8px 0;
+}
+
+/* ===== ABOUT SECTION ===== */
+#about p {
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* ===== TEAM CARDS ===== */
+.w3-grayscale .w3-col {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.4s;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.w3-grayscale .w3-col:hover {
+  transform: translateY(-10px);
+  background: #222;
+}
+
+.w3-grayscale img {
+  border-radius: 10px;
+}
+
+/* ===== BUTTONS ===== */
+.w3-button {
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.w3-light-grey {
+  background: #333 !important;
+  color: #f4b400 !important;
+}
+
+.w3-light-grey:hover {
+  background: #f4b400 !important;
+  color: #000 !important;
+}
+
+.w3-black {
+  background: #f4b400 !important;
+  color: #000 !important;
+}
+
+.w3-black:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+/* ===== CONTACT FORM ===== */
+.w3-input {
+  background: #1a1a1a;
+  border: 1px solid #444 !important;
+  color: #faf4f4;
+  border-radius: 8px;
+}
+
+.w3-input:focus {
+  border: 1px solid #f4b400 !important;
+  box-shadow: 0 0 10px #f4b40055;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #000 !important;
+  color: #dae6b0;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #020303 !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #a9bacc !important;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:768px) {
+  .w3-display-middle h1 {
+    font-size: 22px;
+    padding: 15px 20px;
+  }
+}
+
+</style>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Ashley</b>Besmonte</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">What I Do?</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Journey</div>
+        <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\Buyk.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Traveling</div>
+        <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\66632c06-9fd9-4b87-8733-6ecbcdc5d5f8.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Sports</div>
+        <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\1cf3ebfb-bfbd-4d65-8967-cbaeb2a2ab3c.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Studying</div>
+        <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\319055d7-1c37-492c-ac3a-581ab095a086.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Good day everyone! My name is Ashley M. Besmonte, 19 years old, and I am from Dapdap, Bamban, Tarlac. I am currently studying Associate in Computer Technology at Clark College of Science and Technology. As a dedicated and hardworking student, I am passionate about learning more about computers, technology, and developing my technical skills. I believe that through continuous practice, determination, and a positive mindset, I can achieve my goals and build a successful career in the field of technology while making my family proud.</p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\Honda Civic.jpg" alt="John" style="width:100%">
+      <h3>MY RIDE</h3>
+      <p class="w3-opacity">HONDA CIVIC</p>
+      <p>This picture shows my car, which represents my independence and hard work. 
+      It helps me travel safely to school and other important places. </p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\Dogs.jpg" alt="Jane" style="width:100%">
+      <h3>MY DOGS</h3>
+      <p class="w3-opacity">TOM, BAM, CHOCO</p>
+      <p>This picture shows my dogs, who bring happiness and comfort to my life. 
+      They represent loyalty, love, and companionship. 
+      Taking care of them teaches me responsibility and kindness.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\FAMILY.jpg" alt="Mike" style="width:100%">
+      <h3>MY FAMILY</h3>
+      <p class="w3-opacity">BESMONTE FAM</p>
+      <p>This picture shows my family, the most important people in my life. 
+      They are my source of strength, guidance, and motivation. 
+      Everything I do is inspired by my desire to make them proud.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="C:\Users\Justin Manarang\Desktop\HTML SITE\BROTHER.jpg" alt="Dan" style="width:100%">
+      <h3>MY BROTHER</h3>
+      <p class="w3-opacity">JHUSTINE BESMONTE</p>
+      <p>This picture shows my brother, who plays an important role in my life. 
+      He is not only my sibling but also my friend and supporter. 
+      He inspires me to stay strong, work hard, and always do my best.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Me</h3>
+    <p>Lets get in touch and talk about my other plans.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Created and Modify by <a href="https://www.facebook.com/ashleybuyk/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ashley M. Besmonte</a></p>
+</footer>
+
+</body>
+</html>
